@@ -1,0 +1,88 @@
+body{
+  background-color: #fff1ac;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.heading{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Bree Serif', serif;
+}
+.col-lg-3{
+  text-align: center;
+}
+.btn{
+  margin-right: 70px ;
+  margin-bottom: 50px;
+}
+.btn-row{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.brand-img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 2.5px;
+}
+.carousel-item{
+  height: 500px;
+}
+.footer{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.navbar-nav{
+  text-align: right;
+}
+.cards{
+  margin: 40px ;
+  border-radius: 30px;
+  width: 500px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.cards-img{
+  border-radius: 30px;
+  height: 250px;
+}
+.dropdown{
+  text-align: right;
+}
+#collasible-nav-dropdown{
+  color: white;
+}
